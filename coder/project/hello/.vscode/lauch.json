@@ -1,0 +1,26 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Debug (Launch) - External Console",
+            "request": "launch",
+            "mainClass": "${file}",
+            "console": "externalTerminal"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Main<hello>",
+            "request": "launch",
+            "mainClass": "Hello",
+            "projectName": "hello"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Main<hello>(1)",
+            "request": "launch",
+            "mainClass": "Hello",
+            "projectName": "hello"
+        }
+    ]
+}
